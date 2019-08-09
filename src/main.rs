@@ -14,6 +14,7 @@ fn main() {
     select_sort(&mut values, None);
 //    println!("{:?}", sorted_array);
     let clos: fn(i32,i32) -> bool = move |a,b| a<b;
-    println!("test: {}",test(1,3,Box::new(clos)))
+    println!("test: {}",test(1,3,Box::new(clos)));
+
 
 }
